@@ -17,7 +17,7 @@ def recover_secret triplets
   secret = triplets.flatten.uniq
  
   
-  while swapped != false
+  while swapped == true
     swapped = false
     triplets.each do |t|
     #  puts "This triplet: " + t.to_s
